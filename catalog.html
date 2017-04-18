@@ -55,8 +55,8 @@
 				<!-- Фильтр -->
 				<div class="filter-wrap">
 					<form action="#" method="get">
-						<div class="options">
-							<h2>Производители:</h2>
+						<fieldset class="filter-fieldset filter-fieldset-manufacturer">
+							<legend>Производители:</legend>
 
 							<input type="checkbox" id="bax" name="manufacturer" value="bax">
 							<label for="bax">Baxter of California</label>
@@ -75,9 +75,9 @@
 
 							<input type="checkbox" id="amercr" name="manufacturer" value="amercr">
 							<label for="amercr">American Crew</label>
-						</div>
-						<div class="options">
-							<h2>Группы товаров:</h2>
+						</fieldset>
+						<fieldset class="filter-fieldset filter-fieldset-group">
+							<legend>Группы товаров:</legend>
 
 							<input type="radio" id="shav" name="item-group">
 							<label for="shav">Бритвенные принадлежности</label>
@@ -87,7 +87,7 @@
 
 							<input type="radio" id="acces" name="item-group">
 							<label for="acces">Аксессуары</label>
-						</div>
+						</fieldset>
 						<a class="btn" href="#">Показать</a>
 					</form>
 				</div>
