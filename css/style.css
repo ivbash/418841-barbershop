@@ -11,9 +11,9 @@ body {
 	color: #000;
 
 	/* dev */
-	/*background-image: url("../test/barbershop-shop-preview.jpg");*/
+	/*background-image: url("../test/barbershop-item-preview.jpg");
 	background-repeat: no-repeat;
-	background-position: 50% 0;
+	background-position: 50% 0;*/
 }
 
 .container {
@@ -154,7 +154,7 @@ main.container {
 	background-color: rgba(255, 255, 0, 0.2);
 }
 
-/* main-page */
+/* main-catalog */
 .page-main {
 	padding-top: 50px;
 	padding-bottom: 49px;
@@ -246,6 +246,62 @@ main.container {
 .paginator {
 	/* dev */
 	min-height: 43px;
+}
+
+/* main-catalog-item */
+.item-image {
+	float: left;
+	width: 460px;
+	font-size: 0;
+	line-height: 0;
+	
+	/* dev */
+	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
+}
+
+.image-preview {
+	margin-bottom: 22px;
+}
+
+.image-list-item {
+	display: inline-block;
+	width: 140px;
+	margin-right: 20px;
+}
+
+.image-list-item:nth-child(3n) {
+	margin-right: 0;
+}
+
+.item-info {
+	float: right;
+	width: 380px;
+	padding: 20px 10px 0 10px;
+	text-transform: uppercase;
+	
+	/* dev */
+	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
+}
+
+.availability {
+	float: left;
+	margin-bottom: 30px;
+}
+
+.vendor-code {
+	float: right;
+	margin-bottom: 30px;
+}
+
+.item-text {
+	clear: both;
+	margin-bottom: 40px;
+}
+
+.purchase {
+	margin-bottom: 40px;
 }
 
 /* footer */
