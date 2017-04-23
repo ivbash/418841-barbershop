@@ -9,9 +9,9 @@ body {
 	font-weight: bold;
 	line-height: 24px;
 	color: #000;
-	
+
 	/* dev */
-	background-image: url("../test/barbershop-index-preview.jpg");
+	/*background-image: url("../test/barbershop-index-preview.jpg");*/
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 }
@@ -20,9 +20,16 @@ body {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
-	
+
 	/* dev */
 	outline: 1px solid red;
+	background-color: rgba(255, 0, 0, 0.1);
+}
+
+main.container {
+	/* dev */
+	outline: 1px solid green;
+	background-color: rgba(0, 255, 0, 0.1);
 }
 
 .clearfix::after {
@@ -34,18 +41,20 @@ body {
 /* header */
 .main-header {
 	margin-bottom: 60px;
-	
+
 	/* dev */
 	outline: 1px solid green;
+	background-color: rgba(0, 255, 0, 0.1);
 }
 
 .main-navigation {
-	width: 780px;
 	float: left;
-	
+	width: 780px;
+
 	/* dev */
-	min-height: 72px;
+	min-height: 70px;
 	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
 }
 
 .main-navigation li {
@@ -53,39 +62,45 @@ body {
 }
 
 .user-block {
-	width: 140px;
 	float: right;
-	
+	width: 140px;
+
 	/* dev */
-	min-height: 72px;
+	min-height: 70px;
 	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
 }
 
 /* main */
 .index-logo {
 	width: 368px;
 	height: 204px;
-	margin: 0 auto 25px;
-	
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+
 	/* dev */
 	outline: 1px solid red;
+	background-color: rgba(255, 0, 0, 0.1);
 }
 
 .features {
 	margin-bottom: 80px;
-	
+
 	/* dev */
 	outline: 1px solid red;
+	background-color: rgba(255, 0, 0, 0.1);
 }
 
 .features-item {
-	width: 300px;
 	float: left;
+	width: 300px;
 	margin-right: 20px;
-	
+
 	/* dev */
 	min-height: 175px;
 	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
 }
 
 .features-item:last-child {
@@ -93,20 +108,74 @@ body {
 }
 
 .index-content {
+	margin-bottom: 35px;
 	padding: 50px 80px;
-	
+
 	/* dev */
 	outline: 1px solid red;
+	background-color: rgba(255, 0, 0, 0.1);
 }
 
 .index-content-left {
+	float: left;
+	width: 380px;
+
 	/* dev */
 	min-height: 330px;
+	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
 }
 
 .index-content-right {
+	float: right;
+	width: 300px;
+
 	/* dev */
 	min-height: 330px;
+	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
+}
+
+/* footer */
+.main-footer {
+	margin-top: 65px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+
+	/* dev */
+	outline: 1px solid green;
+	background-color: rgba(0, 255, 0, 0.1);
+}
+
+.footer-contacts {
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+
+	/* dev */
+	min-height: 90px;
+	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
+}
+
+.footer-social {
+	float: left;
+	width: 180px;
+
+	/* dev */
+	min-height: 90px;
+	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
+}
+
+.footer-copyright {
+	float: right;
+	width: 180px;
+
+	/* dev */
+	min-height: 90px;
+	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
 }
 
 /* fonts */
