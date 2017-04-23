@@ -1,11 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: "PT Sans Narrow", sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 24px;
 	color: #000;
+	
+	/* dev */
+	background-image: url("../test/barbershop-index-preview.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 0;
 }
 
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	
+	/* dev */
+	outline: 1px solid red;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* header */
+.main-header {
+	margin-bottom: 60px;
+	
+	/* dev */
+	outline: 1px solid green;
+}
+
+.main-navigation {
+	width: 780px;
+	float: left;
+	
+	/* dev */
+	min-height: 72px;
+	outline: 1px solid yellow;
+}
+
+.main-navigation li {
+	display: inline-block;
+}
+
+.user-block {
+	width: 140px;
+	float: right;
+	
+	/* dev */
+	min-height: 72px;
+	outline: 1px solid yellow;
+}
+
+/* main */
+.index-logo {
+	width: 368px;
+	height: 204px;
+	margin: 0 auto 25px;
+	
+	/* dev */
+	outline: 1px solid red;
+}
+
+.features {
+	margin-bottom: 80px;
+	
+	/* dev */
+	outline: 1px solid red;
+}
+
+.features-item {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+	
+	/* dev */
+	min-height: 175px;
+	outline: 1px solid yellow;
+}
+
+.features-item:last-child {
+	margin-right: 0;
+}
+
+.index-content {
+	padding: 50px 80px;
+	
+	/* dev */
+	outline: 1px solid red;
+}
+
+.index-content-left {
+	/* dev */
+	min-height: 330px;
+}
+
+.index-content-right {
+	/* dev */
+	min-height: 330px;
+}
+
+/* fonts */
 .index-content-title {
 	font-family: "PT Sans Narrow", sans-serif;
 	font-size: 30px;
