@@ -11,7 +11,7 @@ body {
 	color: #000;
 
 	/* dev */
-	/*background-image: url("../test/barbershop-index-preview.jpg");*/
+	/*background-image: url("../test/barbershop-shop-preview.jpg");*/
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 }
@@ -47,9 +47,27 @@ main.container {
 	background-color: rgba(0, 255, 0, 0.1);
 }
 
+.page-header {
+	/* dev */
+	outline: 1px solid green;
+	background-color: rgba(0, 255, 0, 0.1);
+}
+
+.header-logo {
+	float: left;
+	width: 111px;
+	margin-right: 13px;
+	padding: 0 18px;
+	
+	/* dev */
+	min-height: 70px;
+	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
+}
+
 .main-navigation {
 	float: left;
-	width: 780px;
+	width: 550px;
 
 	/* dev */
 	min-height: 70px;
@@ -71,7 +89,7 @@ main.container {
 	background-color: rgba(255, 255, 0, 0.2);
 }
 
-/* main */
+/* main-index */
 .index-logo {
 	width: 368px;
 	height: 204px;
@@ -136,9 +154,112 @@ main.container {
 	background-color: rgba(255, 255, 0, 0.2);
 }
 
+/* main-page */
+.page-main {
+	padding-top: 50px;
+	padding-bottom: 49px;
+	
+	/* dev */
+	outline: 1px solid green;
+	background-color: rgba(0, 255, 0, 0.1);
+}
+
+.content-title {
+	margin-bottom: 15px;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 42px;
+	color: #000;
+	text-transform: uppercase;
+	
+	/* dev */
+	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
+}
+
+.breadcrumbs {
+	margin-bottom: 54px;
+	
+	/* dev */
+	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
+}
+
+.breadcrumbs-item {
+	display: inline-block;
+}
+
+.filter-wrap {
+	float: left;
+	width: 220px;
+	
+	/* dev */
+	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
+}
+
+.filter-fieldset {
+	margin-bottom: 35px;
+}
+
+.filter-fieldset-manufacturer {
+	/* dev */
+	min-height: 270px;
+}
+
+.filter-fieldset-group {
+	/* dev */
+	min-height: 200px;
+}
+
+.catalog-wrap {
+	float: right;
+	width: 700px;
+	
+	/* dev */
+	outline: 1px solid yellow;
+	background-color: rgba(255, 255, 0, 0.2);
+}
+
+.catalog {
+	margin-bottom: 25px;
+	font-size: 0;
+}
+
+.catalog-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 220px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	
+	/* dev */
+	min-height: 286px;
+}
+
+.catalog-item:nth-child(3n) {
+	margin-right: 0;
+}
+
+.paginator {
+	/* dev */
+	min-height: 43px;
+}
+
 /* footer */
 .main-footer {
 	margin-top: 65px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+
+	/* dev */
+	outline: 1px solid green;
+	background-color: rgba(0, 255, 0, 0.1);
+}
+
+.page-footer {
 	padding-top: 60px;
 	padding-bottom: 40px;
 
